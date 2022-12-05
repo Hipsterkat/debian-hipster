@@ -1,10 +1,10 @@
-## Debian dotfiles
+# Debian dotfiles
 
 ### GTK theme 
--https://github.com/mountain-theme/Mountain/
+https://github.com/mountain-theme/Mountain/
 
 ### Icons
--https://github.com/zayronxio/Zafiro-icons/releases
+https://github.com/zayronxio/Zafiro-icons/releases
 
 ### Credit
 The credits are towards adi1090x for the *polybar / rofi* themes, all I did was suiting it for on my taste and do some minor integration for my distro:
