@@ -1,0 +1,1 @@
+The things in my repo are just some modifications I made to the original polybar and rofi configs, so to fully make it work you gotta first get the config from adi1090x repo that I put in the README.md and then add my modifications
