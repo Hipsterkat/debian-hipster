@@ -1,2 +1,1 @@
-# debian-hipster
-Debian dotfiles
+
