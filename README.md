@@ -1,4 +1,4 @@
-# Debian dotfiles
+# Debian dotfiles [WIP]
 
 ### GTK theme 
 https://github.com/mountain-theme/Mountain/
