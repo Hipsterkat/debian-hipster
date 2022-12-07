@@ -1,4 +1,15 @@
-# Debian dotfiles [WIP]
+# Dotfiles
+
+
+| info  | = |
+| ------------- | ------------- |
+| Distro | Debian Unstable |
+| WM | i3-Gaps |
+| Font | Jetbrains Mono |
+| Terminal | Kitty |
+| colorscheme | Mountain |
+| Compositor |  [Pijulius picom](https://github.com/pijulius/picom) |
+
 
 ### GTK theme: [Mountain](https://github.com/mountain-theme/Mountain/)
 
