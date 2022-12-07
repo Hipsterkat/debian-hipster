@@ -21,3 +21,4 @@ The credits are going towards adi1090x for the polybar & rofi themes, all I did 
 * [Polybar](https://github.com/adi1090x/polybar-themes)
 * [Rofi](https://github.com/adi1090x/rofi)
 
+![Screenshot_2022-12-07-20-15-10_1920x1080](https://user-images.githubusercontent.com/92778316/206264018-d3e51e2e-e175-4f5a-a109-cac7a53756e8.png)
