@@ -6,7 +6,10 @@ gaps inner 10
 gaps outer 18
  
 # transparency
-
+new_window none
+new_window normal 0
+new_float none
+new_float normal 0
  
 # Starts dunst for notifications:
 exec --no-startup-id dunst
