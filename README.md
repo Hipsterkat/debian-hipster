@@ -12,7 +12,7 @@
 
 
 ### GTK theme: [Mountain](https://github.com/mountain-theme/Mountain/)
-               [Paradise](https://github.com/paradise-theme)
+              
 ### Icons: [zafiro](https://github.com/zayronxio/Zafiro-icons/releases)
 
 ### Credit
@@ -24,4 +24,4 @@ The credits are going towards adi1090x for the polybar & rofi themes, all I did 
 ### Nvidia
 * [guide](https://packages.debian.org/sid/nvidia-driver)
 
-![Screenshot_2022-12-07-20-15-10_1920x1080](https://user-images.githubusercontent.com/92778316/206264018-d3e51e2e-e175-4f5a-a109-cac7a53756e8.png)
+![Pictures_001](https://user-images.githubusercontent.com/92778316/209408311-ee7dc346-dac0-4f51-bd18-16ef213b1471.png)
