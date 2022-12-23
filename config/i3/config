@@ -2,15 +2,19 @@
 set $mod Mod4
  
 # Set gaps
-gaps inner 10
-gaps outer 18
+gaps inner 5
+gaps outer 5
  
 # transparency
-new_window none
-new_window normal 0
-new_float none
-new_float normal 0
- 
+#new_window none
+#new_window normal 0
+#new_float none
+#new_float normal 0
+ for_window [class="^.*"] border pixel 0
+workspace_layout default
+default_border none
+new_window 1pixel 
+
 # Starts dunst for notifications:
 exec --no-startup-id dunst
  
@@ -26,14 +30,16 @@ bindsym $mod+Return exec kitty
  
 # start firefox
 bindsym $mod+Shift+w exec firefox
-bindsym $mod+Shift+t exec nautilus
+bindsym $mod+Shift+t exec nemo
 
 #polybar
-exec "bash ~/.config/polybar/launch.sh --shapes"
+exec "bash ~/.config/polybar/launch.sh"
+
+#i3blocks
+#exec i3blocks -c ~/.config/i3blocks/config
 
 #rofi
 bindsym $mod+x exec "bash ~/.config/rofi/powermenu/type-2/powermenu.sh"
-#bindsym $mod+d exec "bash ~/.config/rofi/applets/bin/apps.sh"
 bindsym $mod+shift++s exec "bash ~/.config/rofi/applets/bin/screenshot.sh"
 bindsym $mod+shift++d exec "bash ~/.config/rofi/applets/bin/appasroot.sh"
 bindsym $mod+d exec "bash ~/.config/rofi/launchers/type-3/launcher.sh"
@@ -196,6 +202,9 @@ exec nitrogen --restore
 # lock and suspend
 bindsym $mod+Control+Shift+l exec "i3lock && systemctl suspend"
 
-#picom
+# picom
 exec "picom -b"
 #bindsym $mod+shift+p exec "picom -b"
+
+# xrandr 
+exec --no-startup-id xrandr --auto
