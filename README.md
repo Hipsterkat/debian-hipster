@@ -11,6 +11,17 @@
 | Compositor |  [Pijulius picom](https://github.com/pijulius/picom) |
 
 
+### Installing [picom](https://github.com/pijulius/picom)
+
+```
+# dnf install dbus-devel gcc git libconfig-devel libdrm-devel libev-devel libX11-devel libX11-xcb libXext-devel libxcb-devel mesa-libGL-devel meson pcre-devel pixman-devel uthash-devel xcb-util-image-devel xcb-util-renderutil-devel xorg-x11-proto-devel
+$ cd /tmp && git clone https://github.com/pijulius/picom && cd picom
+$ git submodule update --init --recursive
+$ meson --buildtype=release . build
+$ ninja -C build
+# ninja -C build install
+```
+
 ### GTK theme: [Mountain](https://github.com/mountain-theme/Mountain/)
               
 ### Icons: [zafiro](https://github.com/zayronxio/Zafiro-icons/releases)
